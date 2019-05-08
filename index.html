@@ -1,0 +1,44 @@
+
+<html>
+    <head>
+    <meta charset="utf-8">
+    <title>メモ帳</title>
+        <style type="text/css">
+            body {
+                background-color: #252C31;
+            }
+            .container {
+                --p: 30px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top: var(--p);
+                padding-bottom: var(--p);
+                width: 700px;
+            }
+            textarea {
+                --p: 30px;
+                font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+                font-size: 16px;
+                line-height: 140%;
+                border-style: none;
+                width: 100%;
+                height: 1134px;
+                resize: none;
+                color: navajowhite;
+                background-color: #303C45;
+                padding-left: var(--p);
+                padding-right: var(--p);
+                padding-top: var(--p);
+                padding-bottom: var(--p);
+            }
+            textarea:focus {
+                outline: none;
+            }
+        </style>
+	</head>
+    <body>
+        <div class="container">
+            <textarea placeholder="......" spellcheck="false"></textarea>
+        </div>
+	</body>
+</html>
